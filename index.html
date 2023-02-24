@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- NUESTRO CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Tienda Online de cerámica By Popolia</title>
+</head>
+<body>
+    <header class="header-flex">
+        <!-- Logo -->
+        <a href="./index.html">
+            <img src="./Recursos/PopoliaLogo.jpeg" alt="Logo" class="Img-logo">
+        </a>
+
+        <nav>
+            <!-- ul | Lista no ordenada -->
+            <ul >
+                <li class="translate">
+                    <a href="./index.html">INICIO</a>
+                </li>
+                <li class="translate">
+                    <a href="./Secciones/productos.html">PRODUCTOS</a>
+                </li>
+                <li class="translate">
+                    <a href="./Secciones/contacto.html">CONTACTO</a>
+                </li>
+                <li class="translate">
+                    <a href="./Secciones/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
+                </li>
+                <li class="translate">
+                    <a href="./Secciones/sobremi.html">SOBRE MÍ</a>
+                </li>
+            </ul>
+        </nav>
+        <form action="#" method="get">
+            <input type="search" name="busqueda" placeholder="Buscar">
+        </form>
+    </header>
+    <!-- Main | Contenido principal -->
+    <main>
+        <section class="banner-hero">
+        </section>
+        <h1>PRODUCTOS DESTACADOS</h1>
+        <section class="productos-grid">
+            <!-- Article(semantica) o DIV se puede usar -->
+            <article class="producto" >
+                <img src="./Recursos/tazafire.jpeg" alt="tazafire" >
+                <div >
+                    <h2 >Taza Fire</h2>
+                    <p>$1800</p>
+                    <p>3 CUOTAS SIN INTERÉS DE $600</p>
+                </div>
+                <a href="./Secciones/productos.html"><button>Ver más</button></a>
+                
+            </article>
+            <article class="producto">
+                <img src="./Recursos/cuenco.jpeg" alt="Cuenco">
+                <div>
+                    <h2>Cuenco Flower</h2>
+                    <p>$1800</p>
+                    <p>3 CUOTAS SIN INTERÉS DE $600</p>
+                </div>
+                <a href="./Secciones/productos.html"><button>Ver más</button></a>
+                
+            </article>
+            <article class="producto">
+                <img src="./Recursos/llama.jpeg" alt="Llamita">
+                <div>
+                    <h2>Maceta llamita</h2>
+                    <p>$1800</p>
+                    <p>3 CUOTAS SIN INTERÉS DE $600</p>
+                </div>
+                <a href="./Secciones/productos.html"><button>Ver más</button></a>
+                
+            </article>
+            <article class="producto">
+                <img src="./Recursos/vela.jpeg" alt="Vela">
+                <div>
+                    <h2>Vela</h2>
+                    <p>$1200</p>
+                    <p>3 CUOTAS SIN INTERÉS DE $400</p>
+                </div>
+                <a href="./Secciones/productos.html"><button>Ver más</button></a>
+                
+            </article>
+        </section>
+        <div>
+            <a href="./Secciones/productos.html"><button>Ver todos los productos</button></a>
+        </div>
+    </main>
+    <!-- Pie de página -->
+    <footer class="footer" >
+        <form action="#" method="get" class="formulario" >
+            <!-- SPAN | Etiqueta para escribir texto -->
+            <span>Inscribite para recibir nuestras últimas novedades!</span>
+            <!-- INPUT | el usuario ingresa info  -->
+            <input type="text" placeholder="Nombre" name="nombre">
+            <input type="text" placeholder="Tu Email" name="Tu Email">
+            <!-- INPUT BUBMIT | para enviar el formulario -->
+            <input type="submit">
+        </form>
+        
+
+        <h3 class=" wow animate__animated animate__flash" >REDES SOCIALES</h3>
+        <ol class="footer-redes">
+            <li>
+                <a href="https://www.instagram.com/ceramica.bypopolia/" target="_blank">Instagram</a>
+            </li>
+            <li>
+                <a href="tel:+5491161267680">Telefono</a>
+            </li>
+            <li>
+                <a href="mailto:bypopolia@hotmail.com">Mail</a>
+            </li>
+        </ol>
+    </footer>
+</body>
+<script src="./JS/wow.js"></script>
+<script>
+    new WOW().init();
+    </script>
+</html>
