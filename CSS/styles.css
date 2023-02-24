@@ -185,6 +185,7 @@ span{
    animation-name: newsletter;
 animation-duration: 3s;
 animation-iteration-count: infinite;
+padding: 1rem;
 }
 
 @keyframes newsletter{
