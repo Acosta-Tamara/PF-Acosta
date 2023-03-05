@@ -37,25 +37,42 @@
             <input type="search" name="busqueda" placeholder="Buscar">
         </form>
     </header>
-    <main></main>
+    <main class="main-flex">
+        <h1>CONTACTO</h1>
+        <div>DATOS DE CONTACTO </div>
+        <label>hola@bypopoliaceramica.com.ar</label>
+        <label>Showroom Popolia, Calle 450 numero 125, City bell, La Plata</label>
+        
+        <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4628.931431709272!2d-58.089063806927065!3d-34.87760948182025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1678033330121!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <form action="#" method="get" class="form-flex">
+            <label for="Nombre">NOMBRE</label>            <!-- INPUT | el usuario ingresa info  -->
+            <input type="text" class="espacio">
+            <label for="Email">EMAIL</label>
+            <input type="text">
+            <label for="Telefono" class="espacio">TELÉFONO (OPCIONAL)</label>
+            <input type="text">
+            <label for="Mensaje" class="espacio">MENSAJE (OPCIONAL)</label>
+            <input type="text">
+            <!-- INPUT BUBMIT | para enviar el formulario -->
+            <input type="submit" class="espacio">
+        </form>
+    </main>
 
-     <!-- Pie de página -->
-     <footer class="footer">
-        <form action="#" method="get">
+    <!-- Pie de página -->
+    <footer class="footer" >
+        <form action="#" method="get" class="formulario"  >
             <!-- SPAN | Etiqueta para escribir texto -->
             <span>Inscribite para recibir nuestras últimas novedades!</span>
-            
             <!-- INPUT | el usuario ingresa info  -->
-            <input type="text" placeholder="Nombre" name="nombre">
-            
-            <input type="text" placeholder="Tu Email" name="Tu Email">
-            
+            <input type="text" placeholder="Nombre" name="nombre" class="espacio">
+            <input type="text" placeholder="Tu Email" name="Tu Email" class="espacio">
             <!-- INPUT BUBMIT | para enviar el formulario -->
             <input type="submit">
         </form>
         
-        <h3>REDES SOCIALES</h3>
-        <ol>
+
+        <h3 class=" wow animate__animated animate__flash" >REDES SOCIALES</h3>
+        <ol class="footer-redes">
             <li>
                 <a href="https://www.instagram.com/ceramica.bypopolia/" target="_blank">Instagram</a>
             </li>

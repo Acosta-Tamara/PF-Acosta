@@ -68,6 +68,8 @@ background: radial-gradient(circle, rgba(207,193,212,1) 50%, rgba(232,221,218,1)
 
  .producto img{
    width: 40vw;
+   border-radius: 20%;
+
  }
 
  /* GRILLA DE PRODUCTOS */
@@ -197,11 +199,42 @@ padding: 1rem;
    }
 }
 
-.button{
+.todos{
    text-align: center;
 }
 
+.mapa{
+   margin: 25px;
+   margin-bottom: 50px;
+}
 
+.main-flex{
+   display: flex;
+   align-items: center;
+}
+
+.form-flex{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 5rem;
+   padding: 10px;
+   background-color: #f0e9f1;
+   color: #735D78;
+   border-radius: 3px;
+   text-align: center;
+
+}
+
+.espacio{
+   padding: 10px;
+   border-radius: 3px;
+   margin: 10px;
+}
+
+.sobremi{
+   
+}
 
 
 
